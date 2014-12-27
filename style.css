@@ -1,0 +1,109 @@
+/*
+Theme Name: Twenty Twelve Template
+Theme URI: http://www.itergator.com/websites/twentytwelvetemplate
+Author: L Hughes
+Author URI: http://www.itergator.com
+Description: Twenty twelve template removing spacing for use with other Wordpress themes
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: response, public house, hughes leisure, hughes
+Text Domain: twentytwelvetemplate
+Template: twentytwelve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url("../twentytwelve/style.css");
+
+/*
+
+HEADER
+
+*/
+
+/* remove header margin */
+
+header#masthead.site-header{
+	margin: 0;
+	padding: 0;
+}
+
+/* remove site margin */
+
+body .site{
+	margin: 0 auto;
+	padding:0;
+}
+
+/* put site in middle, change max size of site */
+
+.site {
+	margin: 0 auto;
+}
+
+/* change alignment and width of navigation */
+
+.main-navigation{
+	margin: 0;
+}
+
+/*
+
+site content
+	
+*/
+
+.site-content{
+	margin: 0;
+	padding:0;
+}
+
+.entry-header{
+	margin: 0;
+	padding: 0;
+}
+
+.site-content article{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+/*
+
+footer
+	
+*/
+
+footer.entry-meta{
+	padding: 0;
+	margin: 0;
+}
+
+footer{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+#colophon{
+	margin: 0;
+	padding: 0;
+}
+
+.entry-content p,
+.entry-summary p,
+.comment-content p,
+.mu_register p {
+	margin: 0;
+}
+
+br{
+	display: none;
+}
+
+footer[role="contentinfo"] {
+	border-top:none;
+}
